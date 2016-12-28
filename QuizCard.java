@@ -7,7 +7,6 @@ public class QuizCard {
 		public QuizCard(String question, String answer){
 			this.question=question;
 			this.answer=answer;
-			
 		}
 		
 		public void setQuestion(String question){
