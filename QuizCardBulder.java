@@ -17,7 +17,6 @@ public class QuizCardBulder {
 		builder.go();
 	}
 	
-	
 	public void go(){
 		//build and display gui
 		
@@ -40,11 +39,9 @@ public class QuizCardBulder {
 		answer.setWrapStyleWord(true);
 		answer.setFont(bigFont);
 		
-		
 		JScrollPane aScroller =new JScrollPane(answer);
 		aScroller.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 		aScroller.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-		
 		
 		JButton nextButton =new JButton("Next Card");
 		
